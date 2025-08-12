@@ -11,19 +11,29 @@ python analise_partida_futebol.py
 
 📊 Regras de Avaliação
 0 ou 1 gol → Fraco — “Precisa treinar mais, tá igual o Vasco.”
+
 2 ou 3 gols → Boa — “Tá indo bem, mas dá pra melhorar.”
+
 4 ou mais gols → Excelente — “Continue assim, tá amassando, parece o Flamengo de 2019.”
 
 🎯 Objetivo do Projeto
 Este projeto me ajudou a praticar conceitos importantes de Python, tais como:
+
 Criação e uso de funções para organizar o código
+
 Estruturas condicionais (if, elif, else) para tomar decisões
+
 Tratamento de exceções com try-except para lidar com erros de entrada
+
 Entrada de dados do usuário com input()
+
 Conversão de tipos (int()) para validar o que o usuário digita
+
 Impressão formatada de mensagens usando print()
+
 Retorno múltiplo de valores a partir de uma função
 
 💡 Observações
 É um projeto simples e didático, ideal para quem está começando.
+
 Pode ser adaptado para outras situações que envolvam classificações, não só futebol.
