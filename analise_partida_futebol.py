@@ -1,7 +1,7 @@
 def analisar_partida(gols):
     if gols <= 1:
         classificacao = 'Fraco'
-        sugestao = 'Precisa treinar mais, tá igual o vasco.'
+        sugestao = 'Precisa treinar mais.'
         return classificacao, sugestao
     elif gols <= 3:
         classificacao = 'Boa'
@@ -9,7 +9,7 @@ def analisar_partida(gols):
         return classificacao, sugestao
     else:
         classificacao = 'Excelente'
-        sugestao = 'Continue assim, tá amassando, parece o Flamengo de 2019.'
+        sugestao = 'Continue assim, tá jogando muito!'
         return classificacao, sugestao
 
 print('*** Análise de desempenho do time ***')
@@ -22,3 +22,4 @@ try:
     print(f'A recomendação é: {recomendacao}')
 except ValueError:
     print('\nVocê nao digitou um número. Por favor, reinicie e tente novamente.')
+
